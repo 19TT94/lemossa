@@ -1,0 +1,14 @@
+// Colors
+$white: #fff;
+
+// Classes
+
+// Elements
+a {
+    text-decoration: none;
+    color: $white;
+
+    &:hover {
+        color: grey;
+    }
+}
