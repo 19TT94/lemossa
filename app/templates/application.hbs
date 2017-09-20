@@ -1,5 +1,17 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<!-- Header -->
+<a href="#home" class="home-link">Lemossa Productions</a>
+<a href="#home" class="toggle">toggle</a>
 
 {{outlet}}
+
+{{#fullpage-js}}
+    <div class="section home" data-anchor="home">
+        <!-- fullpage video -->
+    </div>
+    <div class="section about" data-anchor="about">
+
+    </div>
+    <div class="section contact" data-anchor="contact">
+
+    </div>
+{{/fullpage-js}}
